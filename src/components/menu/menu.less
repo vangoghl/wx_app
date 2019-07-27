@@ -1,0 +1,95 @@
+.menuWapper {
+  position: relative;
+  margin-bottom: 30px;
+  overflow-y: scroll;
+  width: 100%;
+  height: 780px;
+  display: flex;
+  flex-direction: row;
+  .menuLeft {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    .leftText {
+      font-size: 28px;
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+  }
+
+  .menuRight {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow-y: scroll;
+    position: relative;
+
+    .rightItem {
+      margin-left: 20px;
+      padding-top: 30px;
+      display: flex;
+      flex-direction: row;
+      .itemImg {
+        width: 200px;
+        height: 180px;
+      }
+      .itemText {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        .text1 {
+          font-size: 30px;
+          margin-top: 8px;
+        }
+        .text2 {
+          font-size: 20px;
+          margin-top: 8px;
+        }
+        .text3 {
+          font-size: 20px;
+          margin-top: 8px;
+        }
+        .itemBottom {
+          display: flex;
+          justify-content: space-between;
+          .money {
+            .text4 {
+              margin-top: 10px;
+
+              color: red;
+              font-size: 36px;
+            }
+          }
+        }
+
+        .itemNum {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          right: 0;
+          height: 50px;
+
+          .itemNumImg {
+            margin-right: 20px;
+            width: 40px;
+            height: 40px;
+          }
+          .itemNumText {
+            text-align: center;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.item {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+
+  display: flex;
+  flex-direction: row;
+}
